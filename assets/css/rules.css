@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'coconutPunch';
+  src: url('../fonts/Coconut\ Punch\ DEMO.otf') ;
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  background-color: #FFEFBA;
+  font-family: 'coconutPunch';
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  color:  rgb(1, 138, 131);
+}
+
+.title {
+  font-size: 2em;
+
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+.describ {
+  margin-right: 1.5em;
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.orange {
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  color: orange;
+}
+
+.blue {
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  color: rgb(12, 12, 248);
+}
+
+.violet {
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  color: rgb(132, 80, 180);
+}
+
+.red {
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  color: red;
+}
+
+.prez {
+  margin-right: 1.5em;
+  margin-top: 1.5em;
+  font-size: 1.7em;
+  justify-content: center;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.hand {
+  margin-right: 1.5em;
+  margin-top: 1.5em;
+  font-size: 1.6em;
+  justify-content: center;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.card {
+  display: none;
+}
+
+#backToGame {
+  border-radius: 100px;
+  background: #0c7927;
+  box-shadow: inset 5px 5px 16px #053210,
+    inset -5px -5px 16px #13c03e;
+  border: 5px solid black;
+  color: green;
+  font-family: 'turtlesregular';
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  font-size: 20px;
+  position: fixed;
+  top: 45px;
+  left: 25px;
+  height: 45px;
+  bottom: 30px;
+}
+
+#backToGame:hover {
+  border-radius: 100px;
+  box-shadow: 5px 5px 16px #320505,
+    -5px -5px 16px #c01313;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+
+}
+#backToGame:focus {
+  outline: none;
+} 
+
+#backToGame2 {
+  border-radius: 100px;
+  background: #0c7927;
+  box-shadow: inset 5px 5px 16px #053210,
+    inset -5px -5px 16px #13c03e;
+  border: 5px solid black;
+  color: green;
+  font-family: 'turtlesregular';
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  font-size: 20px;
+  left: 25px;
+  height: 45px;
+  bottom: 20px;
+}
+
+#backToGame2:hover {
+  border-radius: 100px;
+  box-shadow: 5px 5px 16px #320505,
+    -5px -5px 16px #c01313;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+#backToGame2:focus {
+  outline: none;
+} 
+
+/* Media queries */
+@media screen and (max-width : 865px) {
+  .jumbotron>h1 {
+    font-size: 0.5em;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+
+  .lead {
+    font-size: 0.75em;
+  }
+
+  .describ {
+    margin-left:0.75em;
+    margin-right: 0.75em;
+    margin-top: 0.75em;
+    font-size: 0.75em;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #sai,
+  #pizza,
+  #carapace {
+    display: none;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .media {
+    display: none;
+  }
+
+  img {
+    margin-left: 90px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .splinter {
+    width: 220px;
+    height: 250px;
+  }
+  html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: auto;
+}
+
+}
