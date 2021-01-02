@@ -313,7 +313,7 @@ text-align: center;
   }
 
   #counter {
-    font-size: 1em;
+    font-size: 25px;
     margin-top: 200px;
   }
 
@@ -335,14 +335,14 @@ text-align: center;
 
   #RuleOfTheGame {
     left: 5px;
-    height: 20px;
+    height: 30px;
     
-    font-size: 10px;
+    font-size: 20px;
     
   }
 
   #reset {
-    font-size: 10px;
+    font-size: 20px;
   }
 
 
@@ -373,6 +373,10 @@ text-align: center;
 
 #avion {
   display: none;
+}
+
+.card {
+  margin: 5px;
 }
  
 }
